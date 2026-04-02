@@ -10,6 +10,12 @@ public class Practice1 {
         for(int i = 0; i < scores.length; i++) {
             sum += scores[i];
         }
+
+        sum = 0;
+        for(int score : scores) {
+            sum += score;
+        }
+
         System.out.println("총합: " + sum);
         System.out.println("평균: " + sum / scores.length);
         
@@ -17,6 +23,7 @@ public class Practice1 {
                 "우유", "사과", "계란(상함)"};
         // foods에서 "(상함)"이 포함된 음식을 제외하고 출력
         // StringMethod 참조기능 활용
+
         for(int i = 0; i < foods.length; i++) {
             String food = foods[i];
             boolean isContain = food.contains("(상함)");
