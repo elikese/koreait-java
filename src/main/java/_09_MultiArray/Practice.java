@@ -92,6 +92,5 @@ public class Practice {
 
         System.out.println("target 찾음");
 
-
     }
 }
