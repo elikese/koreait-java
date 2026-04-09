@@ -60,7 +60,5 @@ public class Practice {
         System.out.println(countEven(numArr2));
         System.out.println(isContain(numArr, 5));
 
-
-
     }
 }
