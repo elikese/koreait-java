@@ -48,9 +48,12 @@ public class ClassMain {
         st1.printStudentInfo();
 
         st3.printAvgScore();
+
         st3.changeName("박박길동");
         System.out.println(st3.name);
         st3.name = "김김길동";
+
+        Student st4 = new Student("손흥민");
 
     }
 }

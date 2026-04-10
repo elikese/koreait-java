@@ -32,6 +32,14 @@ public class Student {
         this.math = math;
     }
 
+    // 이름만 초기화하는 생성자
+    public Student(String name) {
+        this(name, 0, 0, 0);
+        // this != this() 전혀 무관한 문법
+        // this() -> 같은 이름의 생성자를 호출
+        // 제약사항: 생성자의 가장 첫줄에 적어줘야 한다.
+    }
+
     // 인스턴스 메서드(static이 없는 메서드)
     // this를 매개변수로 전달받는 메서드
     public void printStudentInfo() {
